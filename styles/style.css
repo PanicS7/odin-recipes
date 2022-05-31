@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3em;
+  font-family: cursive;
+}
+
+.recipe {
+  line-height: 0.8em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background-color: rgb(193, 222, 241);
+}
+
+/* Styles for recipe pages */
+.recipe-container {
+  background-color: #ccc;
+  padding: 1em;
+}
+.home-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.home-btn {
+  border: 1px solid #00f;
+  background-color: #00f;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  width: fit-content;
+  cursor: pointer;
+}
